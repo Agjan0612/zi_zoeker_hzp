@@ -19,6 +19,7 @@ print(vs.head())
 
 
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
 
